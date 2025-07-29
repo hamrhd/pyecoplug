@@ -10,7 +10,7 @@ def normalize_string(x):
     return x
 
 class EcoDiscovery(object):
-    UDP_PORT = 8900
+    UDP_PORT = 10228
 
     def __init__(self, on_add, on_remove):
         self.on_add = on_add
