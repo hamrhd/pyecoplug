@@ -1,6 +1,6 @@
 import logging
 
-from homeassistant.const import (DEVICE_DEFAULT_NAME, ATTR_HIDDEN, EVENT_TIME_CHANGED, EVENT_HOMEASSISTANT_STOP)
+from homeassistant.const import (DEVICE_DEFAULT_NAME, ATTR_HIDDEN, EVENT_HOMEASSISTANT_STOP)
 from homeassistant.components.switch import SwitchDevice
 from homeassistant.helpers.entity import ToggleEntity
 from homeassistant.helpers.event import track_time_change
@@ -8,7 +8,7 @@ from homeassistant.helpers.event import track_time_change
 DEFAULT_INVERT_LOGIC = False
 
 DOMAIN = 'ecoplug'
-REQUIREMENTS = ['pyecoplug==0.0.5']
+REQUIREMENTS = ['pyecoplug>=0.0.5']
 _LOGGER = logging.getLogger(__name__)
 SCAN_INTERVAL = 5
 
