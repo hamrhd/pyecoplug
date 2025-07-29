@@ -1,0 +1,5 @@
+{
+  "name": "ECO Plug Switches (Workchoice/Woods/WiOn/Dewenwils)",
+  "domains": ["switch"],
+  "render_readme": true
+}
